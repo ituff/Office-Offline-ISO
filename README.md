@@ -4,11 +4,11 @@
 
 一个用于创建 Office LTSC 2024 离线安装 ISO 镜像的工具集。包含多语言 GUI 安装程序、自动更新脚本和 ISO 构建工具。
 
-## 截图
+## 截图 / Screenshots / スクリーンショット
 
-| 中文 | English | 日本語 |
+| 选择产品 / Select / 製品選択 | 正在安装 / Installing / インストール中 | 安装完成 / Done / 完了 |
 |:---:|:---:|:---:|
-| ![中文](screenshots/launcher_zh.png) | ![English](screenshots/launcher_en.png) | ![日本語](screenshots/launcher_ja.png) |
+| ![选择](screenshots/launcher_select.png) | ![安装](screenshots/launcher_installing.png) | ![完成](screenshots/launcher_done.png) |
 
 ## 功能特性
 
@@ -50,9 +50,9 @@ Office-Offline-ISO/
 ├── scripts/
 │   └── update_rebuild_iso.ps1     # 一键更新与重建脚本
 └── screenshots/
-    ├── launcher_zh.png
-    ├── launcher_en.png
-    └── launcher_ja.png
+    ├── launcher_select.png
+    ├── launcher_installing.png
+    └── launcher_done.png
 ```
 
 ## 快速开始
