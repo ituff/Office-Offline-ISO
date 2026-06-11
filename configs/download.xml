@@ -1,0 +1,29 @@
+<Configuration>
+  <Add OfficeClientEdition="64" Channel="PerpetualVL2024">
+    <Product ID="ProPlus2024Volume">
+      <Language ID="zh-cn" />
+      <Language ID="en-us" />
+      <Language ID="ja-jp" />
+    </Product>
+    <Product ID="VisioStd2024Volume">
+      <Language ID="zh-cn" />
+      <Language ID="en-us" />
+      <Language ID="ja-jp" />
+    </Product>
+    <Product ID="VisioPro2024Volume">
+      <Language ID="zh-cn" />
+      <Language ID="en-us" />
+      <Language ID="ja-jp" />
+    </Product>
+    <Product ID="ProjectStd2024Volume">
+      <Language ID="zh-cn" />
+      <Language ID="en-us" />
+      <Language ID="ja-jp" />
+    </Product>
+    <Product ID="ProjectPro2024Volume">
+      <Language ID="zh-cn" />
+      <Language ID="en-us" />
+      <Language ID="ja-jp" />
+    </Product>
+  </Add>
+</Configuration>

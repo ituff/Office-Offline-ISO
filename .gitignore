@@ -1,0 +1,33 @@
+# Office installation files (downloaded by setup.exe /download)
+Office/
+Office/Data/
+
+# Generated ISO files
+*.iso
+
+# Office Deployment Tool executables
+setup.exe
+officedeploymenttool*.exe
+
+# Build staging directory
+iso_root/
+
+# Compiled C# binaries (keep source code)
+launcher/*.exe
+launcher/*.exe.config
+
+# Claude AI workspace
+.claude/
+memory/
+
+# Windows system files
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# IDE files
+.vs/
+.vscode/
+*.suo
+*.user
+*.csproj.user

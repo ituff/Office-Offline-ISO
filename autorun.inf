@@ -1,0 +1,5 @@
+[AutoRun]
+open=OfficeInstaller.exe
+icon=Office.ico
+label=Office LTSC 2024
+action=Install Office LTSC 2024
