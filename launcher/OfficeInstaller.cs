@@ -370,7 +370,7 @@ public class OfficeInstaller : Form
             string configPath = Path.Combine(Path.GetTempPath(),
                 "office_install_" + productId + "_" + langCode + ".xml");
             string configXml = "<Configuration>\r\n" +
-                "  <Add OfficeClientEdition=\"64\" Channel=\"PerpetualVL2024\">\r\n" +
+                "  <Add OfficeClientEdition=\"64\" Channel=\"PerpetualVL2024\" SourcePath=\"" + baseDir + "\">\r\n" +
                 "    <Product ID=\"" + productId + "\">\r\n" +
                 "      <Language ID=\"" + langCode + "\" />\r\n" +
                 "    </Product>\r\n" +
@@ -384,6 +384,7 @@ public class OfficeInstaller : Form
                 var psi = new ProcessStartInfo();
                 psi.FileName = setupExe;
                 psi.Arguments = "/configure \"" + configPath + "\"";
+                psi.WorkingDirectory = baseDir;
                 psi.UseShellExecute = true;
                 psi.WindowStyle = ProcessWindowStyle.Normal;
                 var proc = Process.Start(psi);
